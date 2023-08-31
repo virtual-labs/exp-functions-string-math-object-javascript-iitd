@@ -1,4 +1,3 @@
-## README
 
 ## Quiz
 ### 1. Introduction
