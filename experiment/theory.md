@@ -20,3 +20,4 @@ replace(replaceValue, replaceWithValue) Method: This method returns string with 
 slice(startIndex, endIndex) Method: This method extract a part of string and returns a new string.<br>
 split(character) Method: This method splits the string into an array of sub-strings. This method returns an array. This method accepts single parameter character on which you want to split the string.<br>
 startsWith(queryString) Method: This method checks if a string starts with a given query string or not. This method returns “true” if string starts with provided query string else it returns “false”. This method accepts single parameter queryString that you want to check existing string start with it or not.<br>
+
