@@ -9,7 +9,7 @@ Math.abs(x) returns the absolute (positive) value of x<br>
 Math.log(x) returns the natural logarithm of x<br>
 Math.log10(x) returns the base 10 logarithm of x<br>
 
-#### 2.cString Functions
+#### 2.String Functions
 charAt(indexOfCharacter) method: This method returns the character at the specified index. String in JavaScript has zero-based indexing.
 Parameters: This method accepts single parameter indexOfCharacter that holds the Index of the character of any string.
 Example: This example describes the JavaScipt string charAt() method.<br>
