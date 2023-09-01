@@ -1,4 +1,4 @@
-#### Math Functions
+#### 1. Math Functions
 Math.round(x)-Returns x rounded to its nearest integer<br>
 Math.ceil(x) -Returns x rounded up to its nearest integer<br>
 Math.floor(x)-Returns x rounded down to its nearest integer<br>
@@ -9,7 +9,7 @@ Math.abs(x) returns the absolute (positive) value of x<br>
 Math.log(x) returns the natural logarithm of x<br>
 Math.log10(x) returns the base 10 logarithm of x<br>
 
-#### String Functions
+#### 2.cString Functions
 charAt(indexOfCharacter) method: This method returns the character at the specified index. String in JavaScript has zero-based indexing.
 Parameters: This method accepts single parameter indexOfCharacter that holds the Index of the character of any string.
 Example: This example describes the JavaScipt string charAt() method.<br>
