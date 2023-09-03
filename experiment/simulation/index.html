@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<head>
+	<title>JS Editor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="experiment//simulation/css/style.css">
+</head>
+
+<center><div class="container" >
+    <div class="row">
+      <h3><b><u>JS Code Editor for Pre-Defined String Function</u></b></h3>
+      <br>
+      <div class="col-sm-2">
+        <div class="tbox">
+            Length Function :
+            <p> string.length </p><br>
+            
+      <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode").
+      innerHTML=`  <!DOCTYPE html>
+<head>
+</head>
+<body style="background-color:orange;text-align:center;">
+<h2 style="font-family:cursive;color:red;">JavaScript indexOf function for strings</h2>
+
+<p>Lets find the length of string: "I am a student"</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+var str = "I am a student"
+document.getElementById("demo").innerHTML = str;
+
+function myFunction() {
+var len=str.length;
+document.getElementById("demo").innerHTML = len;
+}
+</script>
+</body>
+</html>`'>
+    Implement this </button></div>
+    </div>
+        <div class="col-sm-2">
+            <div class="tbox">
+                Slice Function : 
+                <p> string.slice(start,end)</p><br>
+                
+          <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode").
+          innerHTML=` <!DOCTYPE html>
+<head>
+</head>
+<body style="background-color:yellow;text-align:center;">
+<h2 style="font-family:cursive;color:green;">JavaScript Slice Function for strings</h2>
+
+<p>Lets slice string "Hello World"</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+var str = "Hello World"
+document.getElementById("demo").innerHTML = str;
+
+function myFunction() {
+  var res=str.slice(0,5);
+  document.getElementById("demo").innerHTML = res;
+}
+</script>
+</body>
+</html>`'>
+        Implement this </button></div>
+        </div>
+
+        <div class="col-sm-2">
+            <div class="tbox">
+                IndexOf Function :
+                <p> string.indexOf() </p><br>
+                
+          <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode").
+          innerHTML=`  <!DOCTYPE html>
+<head>
+</head>
+<body style="background-color:orange;text-align:center;">
+<h2 style="font-family:cursive;color:red;">JavaScript indexOf function for strings</h2>
+
+<p>Lets find the index of "student" in "I am a student"</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+var str = "I am a student"
+document.getElementById("demo").innerHTML = str;
+
+function myFunction() {
+  var pos=str.indexOf("student");
+  document.getElementById("demo").innerHTML = "Index of student is: " + pos;
+}
+</script>
+</body>
+</html>`'>
+        Implement this </button></div>
+        </div>
+
+
+
+        <div class="col-sm-2">
+            <div class="tbox">
+                CharAt Function: 
+                    <p> string.charAt()</p> <br>
+              <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode").
+              innerHTML=` <!DOCTYPE html>
+<html>
+<body style="background-color:pink;text-align:center;" >
+
+<h2 style="font-family:cursive;color:blue;">JavaScript charAt function for strings</h2>
+
+<p>The charAt() method returns the character at a given position in a string:</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+var str ="HELLO WORLD"
+document.getElementById("demo").innerHTML = str;
+
+function myFunction() {
+  
+  document.getElementById("demo").innerHTML = str.charAt(0);
+}
+</script>
+
+</body>
+</html>`'> 
+            Implement this </button></div>
+
+        </div>
+
+
+        <div class="col-sm-2">
+            <div class="tbox">
+                Replace Function :
+                    <p> string.replace()</p> <br>
+              <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode").
+             innerHTML=` <!DOCTYPE html>
+<html>
+<body style="background-color:yellow;text-align:center;" >
+
+<h2 style="font-family:cursive;color:blue;">JavaScript replace function for strings</h2>
+
+<p>Replace "WORLD" with "FRIEND" in the string:</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+var str ="HELLO WORLD"
+document.getElementById("demo").innerHTML = str;
+
+function myFunction() {
+  var txt=str.replace("WORLD","FRIEND")
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>`'> 
+            Implement this </button></div>
+
+        </div>
+        <div class="col-sm-2">
+            <div class="tbox">
+                Split Function :
+                <p> string.split() </p><br>
+                
+          <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode").
+          innerHTML=`  <!DOCTYPE html>
+<head>
+</head>
+<body style="background-color:orange;text-align:center;">
+<h2 style="font-family:cursive;color:red;">JavaScript split function for strings</h2>
+
+<p>Lets print 2nd array element after spliting the string: "Apple, Orange, Pear, Banana"</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+var str = "Apple, Orange, Pear, Banana"
+document.getElementById("demo").innerHTML = str;
+
+function myFunction() {
+  var arr=str.split(",");
+  document.getElementById("demo").innerHTML = arr[1];
+}
+</script>
+</body>
+</html>`'>
+        Implement this </button></div>
+        </div>
+
+
+        </div>
+        </div>
+        </center>
+
+
+        <center>
+        	<div class="container">
+            <div class="row">
+            <div class="col-sm-6">
+<div class="code">
+  <textarea id="jsCode" style="height: 96%">
+<!DOCTYPE html>
+<head>
+</head>
+<body style="background-color:hotpink;text-align:center;font-family: cursive;">
+<h1 style="color: white;">Lets use Pre-defined string functions of javascript!!</h1>
+<h2 style="color: white;">Choose from the above options of various Pre-defined string functions</h2>
+<p style="color: white;">Then implement to see effect</p>
+</body>
+</html>
+</textarea>  
+<button type="button" style="background-color: rgb(111, 151, 211); " class="btn btn-success" onclick="showPreview()">
+Try this out
+</button>    
+</div>
+</div>
+<div class="col-sm-6">
+<div class="preview">
+  <iframe id="preview-window"></iframe>
+</div>
+</div>
+</div>
+</div>
+            </center>
+            <script>
+                function showPreview(){
+                var jsCode = ""+document.getElementById("jsCode").value+"";
+                var frame = document.getElementById("preview-window").contentWindow.document;
+                frame.open();
+                frame.write(jsCode);
+                frame.close();
+              }
+              </script>
+
+            <center><div class="container" >
+                <div class="row">
+                  <h3><b><u>JS Code Editor for Pre-Defined Math Function</u></b></h3>
+                  <br>
+                  <div class="col-sm-3">
+                    <div class="tbox">
+                        Ceil Function :
+                        <p> Math.ceil() </p><br>
+                        
+                  <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode1").
+                  innerHTML=`  <!DOCTYPE html>
+            <head>
+            </head>
+            <body style="background-color:orange;text-align:center;">
+            <h2 style="font-family:cursive;color:red;">JavaScript ceil function</h2>
+            
+            <p>Math.ceil() rounds a number <strong>up</strong> to its nearest integer:</p>
+            <button onclick="myFunction()">Try it</button>
+            <p id="demo"></p>
+            
+            <script>
+            var n = 4.4
+            document.getElementById("demo").innerHTML = n;
+            
+            function myFunction() {
+            document.getElementById("demo").innerHTML = Math.ceil(n);
+            }
+            </script>
+            </body>
+            </html>`'>
+                Implement this </button></div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="tbox">
+                        Floor Function :
+                        <p> Math.floor() </p><br>
+                        
+                  <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode1").
+                  innerHTML=`  <!DOCTYPE html>
+            <head>
+            </head>
+            <body style="background-color:orange;text-align:center;">
+            <h2 style="font-family:cursive;color:red;">JavaScript Floor function</h2>
+            
+            <p>Math.floor(x) returns the value of x rounded <strong>down</strong> to its nearest integer:</p>
+            <button onclick="myFunction()">Try it</button>
+            <p id="demo"></p>
+            
+            <script>
+            var n = 6.8
+            document.getElementById("demo").innerHTML = n;
+            
+            function myFunction() {
+            document.getElementById("demo").innerHTML = Math.floor(n);
+            }
+            </script>
+            </body>
+            </html>`'>
+                Implement this </button></div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="tbox">
+                        Round Function :
+                        <p> Math.round() </p><br>
+                        
+                  <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode1").
+                  innerHTML=`  <!DOCTYPE html>
+            <head>
+            </head>
+            <body style="background-color:orange;text-align:center;">
+            <h2 style="font-family:cursive;color:red;">JavaScript Round function</h2>
+            
+            <p>Click the button to round the number to its nearest integer.</p>
+            <button onclick="myFunction()">Try it</button>
+            <p id="demo"></p>
+            
+            <script>
+            var n = 7.5
+            document.getElementById("demo").innerHTML = n;
+            
+            function myFunction() {
+            document.getElementById("demo").innerHTML = Math.round(n);
+            }
+            </script>
+            </body>
+            </html>`'>
+                Implement this </button></div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="tbox">
+                        Random Function :
+                        <p> Math.random() </p><br>
+                        
+                  <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode1").
+                  innerHTML=`  <!DOCTYPE html>
+            <head>
+            </head>
+            <body style="background-color:orange;text-align:center;">
+            <h2 style="font-family:cursive;color:red;">JavaScript Random function</h2>
+            
+            <p>Gives a random number between 0 and 1</p>
+            <button onclick="myFunction()">Try it</button>
+            <p id="demo"></p>
+            
+            <script>
+            
+            function myFunction() {
+            document.getElementById("demo").innerHTML = Math.random();
+            }
+            </script>
+            </body>
+            </html>`'>
+                Implement this </button></div>
+                </div>
+
+            </div>
+        </div>
+        </center>
+                <center>
+                    <div class="container">
+                    <div class="row">
+                    <div class="col-sm-6">
+        <div class="code">
+          <textarea id="jsCode1" style="height: 96%">
+        <!DOCTYPE html>
+        <head>
+        </head>
+        <body style="background-color:hotpink;text-align:center;font-family: cursive;">
+        <h1 style="color: white;">Lets use Pre-defined Math functions of javascript!!</h1>
+        <h2 style="color: white;">Choose from the above options of various Pre-defined Math functions</h2>
+        <p style="color: white;">Then implement to see effect</p>
+        </body>
+        </html>
+        </textarea>  
+        <button type="button" style="background-color: rgb(111, 151, 211); " class="btn btn-success" onclick="showPreview2()">
+        Try this out
+        </button>    
+        </div>
+        </div>
+        <div class="col-sm-6">
+        <div class="preview">
+          <iframe id="preview-window2"></iframe>
+        </div>
+        </div>
+        </div>
+        </div>
+                    </center>
+
+                    <script>
+                        function showPreview2(){
+                        var jsCode = ""+document.getElementById("jsCode1").value+"";
+                        var frame = document.getElementById("preview-window2").contentWindow.document;
+                        frame.open();
+                        frame.write(jsCode);
+                        frame.close();
+                      }
+                      </script>
+
+ 
+</body>
+</html>
