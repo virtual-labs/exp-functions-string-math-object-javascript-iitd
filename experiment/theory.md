@@ -1,4 +1,3 @@
-## THEORY
 #### Math Functions
 Math.round(x)-Returns x rounded to its nearest integer<br>
 Math.ceil(x) -Returns x rounded up to its nearest integer<br>
